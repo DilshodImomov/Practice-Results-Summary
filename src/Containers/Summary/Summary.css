@@ -74,3 +74,75 @@
     background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
     cursor: pointer;
 }
+
+@media screen and (max-width: 750px) {
+    .summaryBox {
+        width: 275px;
+        height: 400px;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .summaryBox h2 {
+        font-size: 22px;
+    }
+    .box {
+        margin-bottom: 13px;
+        padding: 13px;
+    }
+    .box > p.score {
+        font-size: 15px;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+  }
+
+@media screen and (max-width: 550px) {
+
+    .summaryBox {
+        width: 200px;
+        height: 300px;
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+    .summaryBox h2 {
+        font-size: 20px;
+    }
+    .box {
+        margin-bottom: 8px;
+        padding: 8px;
+    }
+    .box > p.score {
+        font-size: 12px;
+    }
+
+    .btn {
+        margin-top: 10px;
+        padding: 13px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .summaryBox {
+        width: 100vw;
+        height: fit-content;
+        font-size: 18px;
+        padding: 10px 10px;
+    }
+    .summaryBox h2 {
+        font-size: 24px;
+    }
+    .box {
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+    .box > p.score {
+        font-size: 15px;
+    }
+
+    .btn {
+        margin-top: 20px;
+        padding: 15px;
+    }
+}

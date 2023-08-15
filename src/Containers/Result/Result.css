@@ -44,3 +44,68 @@
     color: white;
     font-weight: 700;
  }
+
+ @media screen and (max-width: 750px) {
+   .resultBox {
+     width: 275px;
+     height: 400px;
+     font-size: 16px;
+   }
+   .resultBox > h2 {
+      font-size: 22px;
+   }
+   .scoreCircle {
+      height: 150px;
+      width: 150px;
+   }
+   .scoreCircle h1 {
+      font-size: 3rem;
+   }
+   .lowerText h1 {
+      font-size: 26px;
+   }
+ }
+
+ @media screen and (max-width: 550px) {
+   .resultBox {
+      width: 200px;
+      height: 300px;
+      font-size: 12px;
+    }
+    .resultBox > h2 {
+       font-size: 20px;
+    }
+    .scoreCircle {
+       height: 100px;
+       width: 100px;
+    }
+    .scoreCircle h1 {
+       font-size: 2rem;
+    }
+    .lowerText h1 {
+       font-size: 20px;
+    }
+ }
+
+@media screen and (max-width: 400px) {
+   .resultBox {
+      width: 100vw;
+      height: 400px;
+      font-size: 16px;
+      border-radius: 0% 0% 30px 30px;
+   }
+   .resultBox > h2 {
+      margin-top: 0;
+      font-size: 24px;
+   }
+   .scoreCircle {
+      height: 175px;
+      width: 175px;
+   }
+   .scoreCircle h1 {
+      font-size: 4rem;
+   }
+   .lowerText h1 {
+      font-size: 26px;
+   }
+}
